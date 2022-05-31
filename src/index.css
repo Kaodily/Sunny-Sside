@@ -18,6 +18,7 @@ body {
   text-align: center;
   background-color: white;
   padding-top: 40px;
+  z-index: 2;
 }
 .popup {
   display: block;
@@ -43,6 +44,9 @@ body {
   text-decoration: none;
   color: black;
 }
+.Menu ul li a:hover {
+ font-size: 20px;
+}
 .Menu button {
   width: 110px;
   height: 45px;
@@ -52,6 +56,11 @@ body {
   background-color: hsl(51, 100%, 49%);
   font-size: 15px;
   font-weight: 600;
+}
+.Menu button:hover{
+  background-color: white;
+  border: 2px solid black
+  
 }
 
 .header {
@@ -84,6 +93,9 @@ body {
 .desktop_navBar ul li a {
   text-decoration: none;
   color: white;
+}
+.desktop_navBar ul li a:hover{
+ text-decoration: underline;
 }
 .desktop_navBar ul li button {
   width: 80px;
@@ -138,6 +150,15 @@ body {
   display: inline;
   border-bottom: 4px solid hsl(7, 99%, 70%);
 }
+.yellow_border:hover {
+  display: inline;
+  border-bottom: 4px solid hsl(7, 99%, 70%);
+}
+.pink_border:hover {
+  display: inline;
+  border-bottom: 4px solid hsl(51, 56%, 60%);
+}
+
 .transform img,
 .standout img {
   width: 100%;
@@ -279,6 +300,10 @@ body {
 .footer ul li a {
   text-decoration: none;
   color: hsl(167, 40%, 24%);
+}
+.footer ul li a:hover {
+  text-decoration: underline;
+  color: white;
 }
 .socials {
   display: flex;

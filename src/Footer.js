@@ -12,10 +12,10 @@ export default function Footer(){
             <ul>
             <li><a href = '#'>About</a></li>
             <li><a href = '#'>Services</a></li>
-            <li><a href = '#'>Pojects</a></li>
+            <li><a href = '#'>Projects</a></li>
                 </ul>
                 <div className= 'socials'>
-                <img src = {facebook} alt='facebooj'/>
+                <img src = {facebook} alt='facebook'/>
                 <img src = {instagram}alt='instagram' />
                 <img src = {twitter} alt='twitter'/>
                 <img src = {pinterest} alt='pinterest'/>

@@ -22,7 +22,7 @@ export default function Header(props) {
           <ul>
             <li><a href = '#'>About</a></li>
             <li><a href = '#'>Services</a></li>
-              <li><a href='#'>Pojects</a></li>
+              <li><a href='#'>Projects</a></li>
               <li> <button type ='button'>Contact</button></li>
             </ul>
           
