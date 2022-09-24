@@ -3,7 +3,7 @@ export default function MobileMenu(props) {
             <ul>
             <li><a href = '#'>About</a></li>
             <li><a href = '#'>Services</a></li>
-            <li><a href = '#'>Pojects</a></li>
+            <li><a href = '#'>Projects</a></li>
             </ul>
             <button>Contact</button>
     </ div>)

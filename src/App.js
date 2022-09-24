@@ -20,8 +20,8 @@ function App() {
    }
   return (
     <div className="App">
-      <MobileMenu navBar={ navBar}/>
-      <Header HandleClick={ HandleClick}/>
+      <MobileMenu navBar={navBar}/>
+      <Header HandleClick={HandleClick}/>
       <Section
          class= 'transform'
         img={transform}

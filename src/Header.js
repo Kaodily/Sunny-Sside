@@ -18,7 +18,7 @@ export default function Header(props) {
         </nav>
         <nav className="desktop_navBar">
           <div className='flex'>
-          <img src={Logo} alt="" />
+          <img src={Logo} alt="logo" />
           <ul>
             <li><a href = '#'>About</a></li>
             <li><a href = '#'>Services</a></li>

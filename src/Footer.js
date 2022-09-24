@@ -8,7 +8,7 @@ export default function Footer(){
     return (
         <>
             <footer className="footer">
-                <img src={Logo} alt='#' className ='logo'/>
+                <img src={Logo} alt='logo' className='logo' />
             <ul>
             <li><a href = '#'>About</a></li>
             <li><a href = '#'>Services</a></li>
